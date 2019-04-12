@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    contextPath: /api
+spring:
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: create
